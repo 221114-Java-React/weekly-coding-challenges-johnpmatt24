@@ -13,7 +13,10 @@ public class Solution {
 
 
         for(int i =1; i < list.size(); i++) {
-            s
+            if(list.get(i).contains(str)) {
+                newlist.add(list.get(1));
+            }
         }
+        return newlist;
     }
 }
