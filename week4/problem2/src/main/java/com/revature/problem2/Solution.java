@@ -7,6 +7,13 @@ import java.util.List;
 
 public class Solution {
     public List<String> autoComplete(List<String> list) {
-        throw new RuntimeException("TODO! Needs implementation...");
+        String str = list.get(0);
+        List<String> newlist = new ArrayList<>();
+
+
+
+        for(int i =1; i < list.size(); i++) {
+            s
+        }
     }
 }
